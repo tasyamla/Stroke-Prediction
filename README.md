@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Stroke Prediction Model
 ---
 This repository contains the code and documentation for a machine learning project focused on predicting the likelihood of stroke in patients based on various health parameters. The project utilizes a comprehensive dataset that includes patient information such as age, gender, underlying health conditions, and lifestyle factors like smoking status.
