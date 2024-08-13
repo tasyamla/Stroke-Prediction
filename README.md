@@ -73,6 +73,7 @@ The final model, after validation and testing, is deployed using Hugging Face.
 # Link
 - [Dataset](https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset)
 - [Deployment](https://huggingface.co/spaces/tasyamla/StrokePrediction)
+- [My Other Portofolio](https://drive.google.com/file/d/1IlR4obHCGwR55E_c9mcdsSrcAv2CXMRB/view)
 ---
 
 # Contact
