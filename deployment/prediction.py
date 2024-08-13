@@ -16,15 +16,19 @@ def app():
     with open("model.pkl", "rb") as file_1:
         model = pickle.load(file_1)
 
-    # Predict using the model pipeline
-    prediction = model.predict(input_data)
+    # Prediksi Stroke
+    if st.button('Predict Stroke Now'):
+        stroke_prediction = model.predict(input_data)
+    
+        st.subheader('Prediction Result:')
+        if stroke_prediction[0] == 1:
+            st.write('Stroke')
+        else:
+            st.write('No Stroke')
 
-    # Display the prediction result
-    st.subheader('Prediction Result:')
-    if prediction[0] == 1:
-        st.write('Stroke (1)')
     else:
-        st.write('No Stroke (0)')
+        st.write('Prediction Result:')
+    
 
 # Function to get user input
 def user_input():
